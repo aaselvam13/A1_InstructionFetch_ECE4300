@@ -11,3 +11,4 @@ top.v - top module, wires everything together.
 
 fetch_tb.v - initializes the top module with necessary inputs and outputs, then tests the module. clocks a few times to read some instructions, then branches ahead and clocks some more to make sure nothing breaks.  
 Timing Diagram from fetch_tb.v is in the attached screenshot.  
+<img src="Screenshot 2026-03-15 142322.png" >
