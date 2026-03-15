@@ -1,4 +1,4 @@
-# A2_InstructionFetch_ECE4300
+# ECE 4300 Coding Assignment 1: Instruction Fetch
 
 .v Files:
 
