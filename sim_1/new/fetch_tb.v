@@ -34,7 +34,7 @@ module fetch_tb;
         #10 ex_mem_pc_src = 0;      //fetches next sequential instruction
         #20 ex_mem_pc_src = 1; 
             ex_mem_npc = 32'd20;   //does a branch to skip a few instructions 
-        #20 ex_mem_pc_src = 0;      // back to sequential instructions
+        #10 ex_mem_pc_src = 0;      // back to sequential instructions
 
         #50;
         $finish;
